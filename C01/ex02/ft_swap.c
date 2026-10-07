@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
@@ -20,7 +20,7 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = swp;
 }
-/*
+
 int	main(void)
 {
 	int	x;
@@ -32,4 +32,4 @@ int	main(void)
 	printf("%d %d", x, y);
 	return(0);
 }
-*/
+

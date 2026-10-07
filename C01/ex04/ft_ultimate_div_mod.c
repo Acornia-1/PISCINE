@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {
@@ -22,7 +22,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*a = div;
 	*b = mod;
 }
-/*
+
 int	main(void)
 {
 	int primero;
@@ -35,4 +35,4 @@ int	main(void)
 	printf("%d %d", primero, segundo);
 	return(0);
 }
-*/
+

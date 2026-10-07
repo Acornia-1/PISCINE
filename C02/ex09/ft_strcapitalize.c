@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcapitalize.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 15:01:16 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/23 10:44:20 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:38:29 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strcapitalize(char *str)
 {
@@ -38,7 +38,7 @@ char	*ft_strcapitalize(char *str)
 	}
 	return (str);
 }
-/*
+
 int	main(void)
 {
 	char	str[]= "salut, comment tu vas ?"
@@ -47,4 +47,4 @@ int	main(void)
 	printf("%s\n", ft_strcapitalize(str));
 	return(0);
 }
-*/
+

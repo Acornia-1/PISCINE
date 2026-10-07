@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/17 12:02:45 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/22 10:38:37 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:31:03 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {
@@ -27,7 +27,7 @@ void	ft_rev_int_tab(int *tab, int size)
 		counter ++;
 	}
 }
-/*
+
 int	main(void)
 {
 	int	array[5] = {1,2,3,4,5};
@@ -43,4 +43,3 @@ int	main(void)
 	}
 	return (0);
 }
-*/

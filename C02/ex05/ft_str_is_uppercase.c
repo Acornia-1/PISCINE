@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 10:41:26 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/20 11:00:35 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:33:24 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_uppercase(char *str)
 {
@@ -27,11 +27,10 @@ int	ft_str_is_uppercase(char *str)
 	}
 	return (1);
 }
-/*
+
 int	main(void)
 {
 	printf("%d\n", ft_str_is_uppercase("HOLA"));
 	printf("%d", ft_str_is_uppercase("hola"));
 	return (0);
 }
-*/

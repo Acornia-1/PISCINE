@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlowcase.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 14:46:44 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/20 14:59:44 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:38:14 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
@@ -27,7 +27,7 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
-/*
+
 int	main(void)
 {
 	char	str[]= "hOlA";
@@ -35,4 +35,3 @@ int	main(void)
 	printf("%s\n", ft_strlowcase(str));
 	return(0);
 }
-*/

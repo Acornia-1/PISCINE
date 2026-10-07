@@ -23,10 +23,10 @@ void	ft_putstr(char *str)
 		counter++;
 	}
 }
-/*
+
 int	main(void)
 {
 	ft_putstr("hola");
 	return(0);
 }
-*/
+

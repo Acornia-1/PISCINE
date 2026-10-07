@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/19 13:12:37 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/21 12:35:23 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:31:17 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
@@ -25,11 +25,11 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-/*
+
 int	main(void)
 {
 	char	origen[] = "hola";
-	char	destino[50];
+	char	destino[] = "adios";
 
 	ft_strcpy(destino, origen);
 	printf("%s\n", origen);
@@ -37,4 +37,3 @@ int	main(void)
 
 	return(0);
 }
-*/

@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/23 15:53:18 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/23 15:59:38 by acornia          ###   ########.fr       */
+/*   Updated: 2026/09/03 14:08:00 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//#include<stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -23,10 +21,10 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
-/*
+#include <stdio.h>
+
 int	main(void)
 {
 	printf("%d", ft_strlen("hola"));
 	return (0);
 }
-*/

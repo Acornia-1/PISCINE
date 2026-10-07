@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/23 14:47:18 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/23 15:30:00 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:47:06 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -34,7 +34,7 @@ char	*ft_strstr(char *str, char *to_find)
 	}
 	return (0);
 }
-/*
+
 int	main(void)
 {
 	char	*str1 = "Hola que tal";
@@ -45,4 +45,4 @@ int	main(void)
 	printf("%s\n", ft_strstr(str1, str2));
 	return (0);
 }
-*/
+

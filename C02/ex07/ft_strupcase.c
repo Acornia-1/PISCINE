@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strupcase.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 11:43:05 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/20 14:45:40 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:38:03 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
@@ -27,7 +27,7 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
-/*
+
 int	main(void)
 {
 	char	str[] = "hOlA";
@@ -35,4 +35,3 @@ int	main(void)
 	printf("%s\n", ft_strupcase(str));
 	return (0);
 }
-*/

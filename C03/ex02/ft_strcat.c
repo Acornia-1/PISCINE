@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/21 12:34:01 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/23 13:49:14 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:46:29 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strcat(char *dest, char *src)
 {
@@ -30,7 +30,7 @@ char	*ft_strcat(char *dest, char *src)
 	dest[i + j] = '\0';
 	return (dest);
 }
-/*
+
 int	main(void)
 {
 	char	str1[100] = "hola ";
@@ -39,4 +39,4 @@ int	main(void)
 	ft_strcat(str1, str2);
 	printf("%s", str1);
 }
-*/
+

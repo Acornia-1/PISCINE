@@ -6,11 +6,11 @@
 /*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/19 13:44:58 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/19 14:26:42 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/26 15:19:44 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
@@ -29,12 +29,12 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
-/*
+
 int	main(void)
 {
-	char	origen[] = "hola";
-	char	destino[50];
-	unsigned int size = 100;
+	char	origen[] = "mondongo";
+	char	destino[] = "peter";
+	unsigned int size = 6;
 
 	ft_strncpy(destino, origen, size);
 	printf("%s\n", origen);
@@ -42,4 +42,4 @@ int	main(void)
 	printf("%u\n", size);
 	return(0);
 }
-*/
+

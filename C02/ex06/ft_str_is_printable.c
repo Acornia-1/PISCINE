@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 11:03:40 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/20 11:41:09 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:37:49 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_printable(char *str)
 {
@@ -27,14 +27,12 @@ int	ft_str_is_printable(char *str)
 	}
 	return (1);
 }
-/*
+
 int	main(void)
 {
-	char	test[0];
-
-	test[0] = {31, '\0'};
+	char	test[] = "hola\tmundo";
+	
 	printf("%d\n", ft_str_is_printable("hola"));
 	printf("%d\n", ft_str_is_printable(test));
 	return (0);
 }
-*/

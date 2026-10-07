@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 17:53:25 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/21 10:53:59 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:46:04 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -24,11 +24,10 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return (s1[i] - s2[i]);
 }
-/*
+
 int	main(void)
 {
 	printf("%d\n", ft_strcmp("holadvhfgh", "hola"));
 	return (0);
 
 }
-*/

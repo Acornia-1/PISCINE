@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_alpha.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/19 14:27:49 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/19 15:48:44 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:31:45 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_alpha(char *str)
 {
@@ -28,11 +28,11 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
-/*
+
 int	main(void)
 {
 	printf("%d\n", ft_str_is_alpha("Hola"));
 	printf("%d\n", ft_str_is_alpha("Hola42"));
 	return(0);
 }
-*/
+

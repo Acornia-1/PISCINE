@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/23 16:04:25 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/23 16:07:21 by acornia          ###   ########.fr       */
+/*   Updated: 2026/09/03 14:08:32 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ void	ft_putstr(char *str)
 		i++;
 	}
 }
+#include <unistd.h>
 
 int	main(void)
 {

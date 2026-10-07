@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 10:26:36 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/20 10:40:06 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/30 11:33:03 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_lowercase(char *str)
 {
@@ -27,11 +27,10 @@ int	ft_str_is_lowercase(char *str)
 	}
 	return (1);
 }
-/*
+
 int	main(void)
 {
 	printf("%d\n", ft_str_is_lowercase("hola"));
 	printf("%d", ft_str_is_lowercase("hola42"));
 	return(0);
 }
-*/

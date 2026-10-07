@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acornia <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: acornia <acornia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/16 15:27:25 by acornia           #+#    #+#             */
-/*   Updated: 2026/08/19 14:33:09 by acornia          ###   ########.fr       */
+/*   Updated: 2026/08/31 14:04:59 by acornia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <unistd.h>
+#include <stdio.h> 
 
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
-/*
+
 int main(void)
 {
 	int	a;
@@ -25,4 +25,4 @@ int main(void)
 	printf("%d\n", a);
 	return (0);
 }
-*/
+
